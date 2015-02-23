@@ -2,7 +2,7 @@ package mx.edu.ulsaoxaca.sistema.dao;
 
 import java.util.List;
 
-public interface IUsuarioDAO {
+public interface UsuarioDAOImpl {
 	/**
 	 * Selecciona un usuario por su nombre.
 	 * @param nombre Nombre a buscar.
@@ -20,4 +20,8 @@ public interface IUsuarioDAO {
 	 * @return Entero de la tablas afectadas.
 	 */
 	int updateUsuario(Usuario usuario);
+	
+	int insertUsuario(Usuario usuario);
+	
+	int deleteUsuario(int i);
 }

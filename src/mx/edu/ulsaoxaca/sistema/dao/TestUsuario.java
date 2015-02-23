@@ -12,7 +12,7 @@ public class TestUsuario {
 		System.out.println(usuario1);
 		
 		//Actualizar
-		Usuario usuario2 = new Usuario("uno","Daniel","daniel_brena@hotmail.com");
+	Usuario usuario2 = new Usuario("uno","Daniel","daniel_brena@hotmail.com");
 		int i = usuarioDAO.updateUsuario(usuario2);
 		System.out.println(i);
 		
